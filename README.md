@@ -1,1 +1,9 @@
 # Stable-Diffusion-workflow
+
+Openpose is the one i use the lowest to be honest because of the "mirror" front/back pose i can get in the output and also the head/eyes points tends to add more heads depending how close you're from the subject. which is only working good with full bodies or half bodies. If only they added a "point eraser" into open pose editor i would use it more (without relying to Photoshop to do it myself) a big lack of the extension. But for charturnerv2 from civitai, it's extremely good for what you explained at 40's minutes of your video about reference sheets and sourcing concept.
+
+Depth is really good for background and space awareness of prompts. I tends to use it more for backgrounds instead of characters because from my understanding of it, it's more: white is in front, black is in back, instead of white is what we see, and black is what we don't see. I would say it's more like bump map instead. Very good for outputing a wood crate texture with something coming out of it with ControlNet or a detailed landscape with depth map to follow what's near and what's far.
+
+Normal is what i want to ask you about. Is it worth for an example creating normal maps for adding details to the skin ? like veins, scars, skin details (because almost all of the time the skin is too flat and glossy), or will it generate a completely different output with those details ?
+
+Segmentation is what i wasn't understanding but you explained it very well ! Compositing with it is amazing because without prompts it knows what should be seen on the picture. I didn't knew it was color code related. I will use it a lot from now on ! I think this could be more detailed like color codes for each parts of a subject (like open pose works) because we could correct errors more easily that way if not handling with openpose in multi-ControlNet.
